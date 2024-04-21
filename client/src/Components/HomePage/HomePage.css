@@ -1,0 +1,176 @@
+.home-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.image-container img:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.main-page {
+  width: 100vw;
+  height: 90vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-page-image {
+  width: 40%;
+}
+.main-page-image img {
+  width: 90%;
+  border-radius: 50%;
+  border: 5px rgb(197, 197, 0) solid;
+  box-shadow: 0px 0px 5px 3px rgb(197, 197, 0);
+  animation: slideInFromRight 1s ease-in;
+}
+.main-page-title {
+  background: linear-gradient(
+    20deg,
+    rgba(197, 197, 0, 0.288) 0%,
+    rgba(56, 55, 97, 0.3) 80%,
+    rgba(56, 55, 97, 0.6) 100%
+  );
+  padding: 7px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.7rem;
+  width: fit-content;
+  animation: slideInFromLeft 1.5s ease-in-out forwards;
+}
+.main-page-name {
+  font-size: 5rem;
+  margin: 0;
+  font-weight: 700;
+}
+.main-page-details {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.download-button {
+  background: rgba(197, 197, 0, 0.7);
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 10px;
+  width: fit-content;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s;
+}
+.download-button:hover {
+  background-color: rgba(197, 197, 0, 0.9);
+  transform: scale(1.1);
+}
+.download-button:active {
+  background: rgb(197, 197, 0);
+  box-shadow: 0px 0px 5px 3px rgb(197, 197, 0);
+}
+.Links {
+  position: absolute;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  bottom: 5vh;
+}
+.Links img {
+  width: 20%;
+  background-color: rgba(197, 197, 0, 0.7);
+  border-radius: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.Links img:hover {
+  background-color: rgba(197, 197, 0, 0.9);
+  transform: scale(1.1);
+}
+.Links img:active {
+  background: rgb(197, 197, 0);
+  box-shadow: 0px 0px 5px 3px rgb(197, 197, 0);
+}
+
+
+
+.main-page-name {
+    background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(64, 100%, 50%) 10%, hsl(0, 0%, 100%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3.4s infinite linear;
+  }
+  @keyframes shine {
+    0% {
+      background-position: -200px;
+    }
+    100% {
+      background-position: calc(100% + 300px);
+    }
+  }
+
+
+
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-page {
+    padding-top: 5vh;
+    flex-direction: column-reverse;
+  }
+  .main-page-details {
+    width: 90%;
+  }
+  .main-page-name {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 600;
+  }
+  .download-button, .Links img {
+    background: rgba(197, 197, 0, 0.8);
+  }
+  .Links {
+    width: 50vw;
+  }
+  .Links img {
+    width: 20%;
+    background-color: rgba(197, 197, 0, 0.7);
+    border-radius: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.5s;
+  }
+  .main-page-image {
+    width: 60%;
+  }
+}

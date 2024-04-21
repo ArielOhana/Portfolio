@@ -1,0 +1,95 @@
+.skills
+{
+    width: 100vw;
+    min-height: 100vh;
+    background-color:  rgb(34, 34, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+.skills-title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:rgb(197, 197, 0)
+}
+.skills-page
+{
+    width: 100%;
+    min-height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill-component
+{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(19, 19, 32);
+    border-radius: 9px;
+    box-shadow: 0px 0px 2px 1px rgb(197, 197, 0);
+    font-family: "Bebas Neue", sans-serif;
+     letter-spacing: 2px;
+     font-size: 2rem;
+     margin: 2rem;
+}
+.skill-component:hover
+{
+
+    box-shadow: 0px 0px 5px 3px rgb(197, 197, 0);
+}
+.skill-component-title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid  rgb(34, 34, 59);
+
+}
+.icons-container
+{
+    max-width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill-icon
+{
+    width: 15%;
+}
+.innerskills
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.skill-title
+{
+    padding: 10px 10px 10px;
+    font-size: 1.8rem;
+}
+.skill-describe
+{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.moreinfo-button
+{
+    border: 1px yellow solid;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:rgb(26, 26, 46);
+    cursor: pointer;
+}
+.moreinfo-button:hover
+{
+    background-color: rgb(34, 34, 59);
+}

@@ -1,0 +1,89 @@
+.projects-main-div {
+    border-top: 1px solid rgb(197, 197, 0);
+    background-color: rgb(34, 34, 59);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    overflow-x: auto; 
+  }
+  .scroll-container
+  {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    overflow-x: auto; 
+  }
+  
+  .projects-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(197, 197, 0);
+    
+  }
+  
+  .wide-projects {
+    display: flex;
+    width: 300vw; 
+  }
+  .second-title
+  {
+    font-weight: 200;
+    font-family: "heebo", sans-serif;
+    font-size: 2rem;
+
+  }
+  
+  .unity-projects,
+  .web-projects,
+  .software-projects {
+    flex: 1;
+    width: 100vw; 
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .circle {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color:  rgb(65, 65, 112);
+  }
+  .selected
+  {
+    scale: 1.5;
+    margin: 0 15px;
+    background-color: rgb(197, 197, 0);
+  }
+  .not-selected
+  {
+    margin: 0 8px;
+  }
+  .not-selected:hover
+  {
+    scale: 1.5;
+    transition: all 0.5s;
+    background-color: rgb(102, 102, 173);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+  .selected:hover
+  {
+    scale: 1.7;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .padthebottom
+  {
+    padding-bottom: 10px;
+  }

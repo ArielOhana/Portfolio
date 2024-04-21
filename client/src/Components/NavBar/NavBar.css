@@ -1,0 +1,113 @@
+.main_navbar_div
+{
+    width: 100vw;
+    height: 8vh;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    border-bottom: 0.3vh solid rgba(56, 55, 97, 0.4) ;
+}
+.colored-background
+{
+  background-color:rgba(56, 55, 97, 0.4);
+  border-bottom: 0.3vh solid rgba(56, 55, 97, 0.7) ;
+}
+.logo_div img
+{
+    margin-left: 10px;
+    height: 8vh;
+    cursor: pointer;
+}
+.links
+{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+.name
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.coloredname
+{
+    color:rgb(197, 197, 0)
+}
+.selectors
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 300;
+    cursor: pointer;
+}
+.selector:hover
+{
+    color:rgb(197, 197, 0)
+}
+.name-div
+{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.typeanimation-navbar
+{
+    font-size: 3rem;
+}
+.paddright
+{
+    padding-right: 15px;
+}
+.TypeAnimation
+{
+    font-size: 1rem;
+    display: flex;
+    font-weight: 300;
+    align-items: center;
+}
+.hamburger-button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+.hamburger-button-disabled
+{
+    opacity: 0;
+}
+.main_navbar_div_off
+{
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+    .TypeAnimation
+{
+    font-size: 0.7rem;
+}
+.name-div
+{
+    width: 70%;
+}
+.name
+{
+    font-size: 1rem;
+}
+.selector
+{
+    font-size: 0.8rem;
+}
+.selectors
+{
+    width: 50%;
+}
+  }
+  
