@@ -5,6 +5,7 @@ body
     margin: 0;
     font-family: "Heebo", sans-serif;
     color: white;
+    background-color: rgb(34, 34, 59);
 }
 ::-webkit-scrollbar {
     width: 0;
