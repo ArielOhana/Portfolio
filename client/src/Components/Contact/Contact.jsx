@@ -30,7 +30,7 @@ function Contact() {
   };
 
   return (
-    <footer className="Contact-maindiv">
+    <footer id="contact" className="Contact-maindiv">
       <div className="Contact-div">
         <span className="Contact-main-title">Contact</span>
         <div className="details-div">

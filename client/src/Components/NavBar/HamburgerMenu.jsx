@@ -19,7 +19,7 @@ const HamburgerMenu = ({ showMenu, setShowMenu }) => {
         <li><a onClick={handleExitClick} href="#hometag">Home</a></li>
         <li><a onClick={handleExitClick} href="#skillstag">Skills</a></li>
         <li><a onClick={handleExitClick} href="#projectstag">Projects</a></li>
-        <li><a onClick={handleExitClick} href="#">Contact</a></li>
+        <li><a onClick={handleExitClick} href="#contact">Contact</a></li>
       </ul>
     </div>
   );
