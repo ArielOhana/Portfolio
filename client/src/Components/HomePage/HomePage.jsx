@@ -52,11 +52,11 @@ esteemed high-tech warriors
 program at CyberPro College.
 </span>
 <span className='download-button' onClick={handleDownload}>Download CV</span>
-<div className='Links'>
+{/* <div className='Links'>
     <img src={LinkedInIcon} onClick={OpenLinkedIn} className='LinkedIn-Icon' alt="" />
     <img src={ShareIcon} onClick={copyToClipboard} className='Share-Icon' alt="" />
     <img src={GitHubIcon} onClick={OpenGit} className='GitHub-Icon' alt="" />
-</div>
+</div> */}
         </div>
         <div className='main-page-image'>
             <img src={Smily} alt="" />
