@@ -94,7 +94,7 @@ function Skills() {
   };
   const Tools = {
     mainTitle: "Tools",
-    firstTitle: "IDLE:",
+    firstTitle: "IDE:",
     secondTitle: "Libraries and programs:",
     firstSkills: [eclipse,visualstudio,vscode, unity],
     secondSkills: [postman,tailwind,github,mui,bootstrap],
